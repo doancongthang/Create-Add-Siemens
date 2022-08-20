@@ -16,5 +16,16 @@ namespace Create_Add_Siemens
         {
             InitializeComponent();
         }
+
+        public void CreateArrayAddSiemens()
+        {
+            for (int i = 0; i < 128; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    Console.WriteLine("I" + i + "." + j);
+                }
+            }
+        }
     }
 }
