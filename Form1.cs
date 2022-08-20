@@ -15,6 +15,7 @@ namespace Create_Add_Siemens
         public Form1()
         {
             InitializeComponent();
+            CreateArrayAddSiemens();
         }
 
         public void CreateArrayAddSiemens()
