@@ -24,6 +24,7 @@ namespace Create_Add_Siemens
             {
                 for (int j = 0; j < 8; j++)
                 {
+                    Console.WriteLine("I" + i + "." + j); 
                     Console.WriteLine("I" + i + "." + j);
                 }
             }
